@@ -49,6 +49,9 @@ public class Login {
         } 
         if (this.password.equals(this.confirmpassword)) {
             System.out.println("login realizado com sucesso");
+            System.out.println("Usuario: " + this.user);
+            System.out.println("Nome: "+this.name);
+            System.out.println("Senha: "+ this.password);
             return true;
         }       
         return false;
